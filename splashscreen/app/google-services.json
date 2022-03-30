@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675506923207",
+    "project_id": "parkour-hardcore69",
+    "storage_bucket": "parkour-hardcore69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675506923207:android:ac379cbf85622eaa67c0e2",
+        "android_client_info": {
+          "package_name": "com.rset.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675506923207-esbo1jhvj6o5imoa3qv9dad6il4d4rvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7iIieXYhQLOoVwIdY9ITqa2iiwOLU0Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675506923207-esbo1jhvj6o5imoa3qv9dad6il4d4rvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
