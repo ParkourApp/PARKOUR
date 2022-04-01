@@ -18,7 +18,12 @@ class HomeActivity : AppCompatActivity() {
         }
         val loginbutton =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.loginButton)
         loginbutton.setOnClickListener {
-            val intent = Intent(this,afterLogin::class.java)
+            val intent = Intent(this,bufferActivity::class.java)
+            startActivity(intent)
+        }
+        val easterbutton =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.easterbutton)
+        easterbutton.setOnClickListener {
+            val intent = Intent(this,EasterEgg1::class.java)
             startActivity(intent)
         }
         supportActionBar?.hide()

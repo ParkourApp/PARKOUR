@@ -21,6 +21,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SplashScreen">
         <activity
+            android:name=".Forgot_Password"
+            android:exported="false" />
+        <activity
+            android:name=".EasterEgg4"
+            android:exported="false" />
+        <activity
+            android:name=".EasterEgg3"
+            android:exported="false" />
+        <activity
+            android:name=".EasterEgg2"
+            android:exported="false" />
+        <activity
+            android:name=".EasterEgg1"
+            android:exported="false" />
+        <activity
+            android:name=".signup_success"
+            android:exported="false" />
+        <activity
+            android:name=".bufferActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoadingActivity"
             android:exported="false" />
         <!--

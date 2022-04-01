@@ -5,21 +5,29 @@
       <map>
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/appicon_background.xml" value="0.115" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/button.xml" value="0.1225" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/button_1.xml" value="0.18" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/button_1.xml" value="0.12" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/button_trans.xml" value="0.1" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/edit.xml" value="0.2" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/edit_1.xml" value="0.149" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/getstartedbutton.xml" value="0.149" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.191" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.191" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_after_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_buffer.xml" value="0.16" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_easter_egg1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_easter_egg2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_easter_egg3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_easter_egg4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_google_map.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_googlemaps.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_home.xml" value="0.25" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_loading.xml" value="0.22" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_loading.xml" value="0.14" />
         <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_signup.xml" value="0.33" />
-        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_start_screen.xml" value="0.2" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_signup.xml" value="0.15" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_signup_success.xml" value="0.14" />
+        <entry key="..\:/Users/online/Downloads/splashscreen/splashscreen/app/src/main/res/layout/activity_start_screen.xml" value="0.18" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
       </map>

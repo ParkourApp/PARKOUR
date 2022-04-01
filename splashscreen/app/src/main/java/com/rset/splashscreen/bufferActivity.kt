@@ -4,17 +4,13 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.WindowManager
 
-class signupActivity : AppCompatActivity() {
+class bufferActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
-        val signupbutton =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.confirmButton)
-        signupbutton.setOnClickListener {
-            val intent = Intent(this,signup_success::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_buffer)
         supportActionBar?.hide()
         if (Build.VERSION.SDK_INT >= 21) {
             val window = this.window
@@ -22,6 +18,10 @@ class signupActivity : AppCompatActivity() {
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             window.statusBarColor = this.resources.getColor(R.color.purp1)
         }
-        }
-
+        Handler().postDelayed({
+            val intent = Intent(this,LoadingActivity::class.java)
+            startActivity(intent)
+            finish()
+        }, 2000)
+    }
 }

@@ -24,6 +24,6 @@ class LoadingActivity : AppCompatActivity() {
             val intent = Intent(this,MapsActivity::class.java)
             startActivity(intent)
             finish()
-        }, 4000)
+        }, 3000)
         }
 }
