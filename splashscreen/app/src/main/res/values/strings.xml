@@ -7,4 +7,7 @@
     <string name="forgotpassword">Forgot Password?</string>
     <string name="confirmpassword">Confirm Password</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="pothole">(POTHOLES)</string>
+    <string name="todo2">TODO</string>
+    <string name="contactus">Contact Us</string>
 </resources>

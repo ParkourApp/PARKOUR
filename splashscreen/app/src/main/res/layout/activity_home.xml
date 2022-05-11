@@ -8,7 +8,6 @@
     android:background="@drawable/login_1"
     tools:context=".HomeActivity">
 
-
     <EditText
         android:id="@+id/email"
         android:layout_width="257dp"
@@ -51,7 +50,6 @@
         app:layout_constraintVertical_bias="0.768"
         tools:ignore="TextContrastCheck" />
 
-
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/loginButton"
         android:layout_width="100dp"
@@ -68,7 +66,7 @@
         app:layout_constraintVertical_bias="0.895" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/signupbutton"
+        android:id="@+id/signupButton"
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:background="@drawable/button_1"
@@ -96,6 +94,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contactus"
+        android:layout_width="83dp"
+        android:layout_height="27dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_vertical"
+        android:paddingLeft="17dp"
+        android:text="@string/contactus"
+        android:textColor="#fafafa"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

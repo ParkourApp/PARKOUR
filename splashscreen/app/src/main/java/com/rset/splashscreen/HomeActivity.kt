@@ -2,6 +2,7 @@ package com.rset.splashscreen
 
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,7 +12,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        val button =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.signupbutton)
+        val button =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.signupButton)
         button.setOnClickListener {
             val intent = Intent(this,signupActivity::class.java)
             startActivity(intent)
@@ -24,6 +25,13 @@ class HomeActivity : AppCompatActivity() {
         val easterbutton =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.easterbutton)
         easterbutton.setOnClickListener {
             val intent = Intent(this,EasterEgg1::class.java)
+            startActivity(intent)
+        }
+        val contactus =findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.contactus)
+        contactus.setOnClickListener {
+            val url = "mailto:parkourapp.inc@gmail.com?subject=Type%20your%20questions%20or%20complaints%20here.&body=Describe%20your%20query%20here."
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(url)
             startActivity(intent)
         }
         supportActionBar?.hide()
